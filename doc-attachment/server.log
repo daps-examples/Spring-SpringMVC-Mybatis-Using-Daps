@@ -1,0 +1,75 @@
+####|2023-05-31 15:57:51.912|INFO|com.bes.enterprise.core.admin.launcher.BESLauncherLogger|_ThreadID=1;_ThreadName=main;|JVM invocation command line:
+-XX:+UnlockDiagnosticVMOptions
+-XX:NewRatio=2
+-XX:HeapDumpPath=/home/ubuntu/data/bes/BES910/var/domains/domain3/nodes/Node3/manager/logs/dump/
+-XX:LogFile=/home/ubuntu/data/bes/BES910/var/domains/domain3/nodes/Node3/manager/logs/jvm.log
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:-UseVMInterruptibleIO
+-XX:+LogVMOutput
+-Xmx256m
+-client
+-Djava.endorsed.dirs=/home/ubuntu/data/bes/BES910/framework/components/endorsed:/home/ubuntu/data/bes/BES910/lib/endorsed
+-Dcom.bes.installRoot=/home/ubuntu/data/bes/BES910
+-Dcom.bes.instanceRoot=/home/ubuntu/data/bes/BES910/var/domains/domain3/nodes/Node3/manager
+-Djava.net.preferIPv4Stack=true
+-Djava.ext.dirs=/home/ubuntu/apps/jdk1.8.0_151/lib/ext:/home/ubuntu/apps/jdk1.8.0_151/jre/lib/ext:/home/ubuntu/data/bes/BES910/var/domains/domain3/nodes/Node3/manager/lib/ext|####
+####|2023-05-31 15:57:51.915|INFO|com.bes.enterprise.core.admin.launcher.BESLauncherLogger|_ThreadID=1;_ThreadName=main;|Successfully launched in 3 msec.|####
+####|2023-05-31 15:57:53.438|INFO|com.bes.appserv.lic.Auth|_ThreadID=1;_ThreadName=main;|BES will exit automatically at [2023-06-03 15:57:53]|####
+####|2023-05-31 15:57:53.441|INFO|com.bes.enterprise.nodeagent.bootstrap.NodeAgentMain|_ThreadID=1;_ThreadName=main;|BES will expire in 184 days.|####
+####|2023-05-31 15:57:54.177|INFO|javax.enterprise.system.nodeagent|_ThreadID=1;_ThreadName=main;|NODE100004:Starting node ...|####
+####|2023-05-31 15:57:54.476|INFO|javax.enterprise.system.nodeagent|_ThreadID=1;_ThreadName=main;|NODE100038:Executing Synchronization for node with DMS.|####
+####|2023-05-31 15:57:55.598|INFO|javax.enterprise.system.nodeagent|_ThreadID=1;_ThreadName=main;|NODE100039:Synchronization for Node3 - SUCCEEDED! and took 1122 milliseconds.|####
+####|2023-05-31 15:57:55.612|INFO|javax.enterprise.system.nodeagent|_ThreadID=1;_ThreadName=main;|NODE100001:Initializing node ...|####
+####|2023-05-31 15:57:55.655|CONFIG|javax.enterprise.system.nodeagent|_ThreadID=1;_ThreadName=main;|registered object: com.bes.appserver.node:type=Node,name=Node3,category=node-controller|####
+####|2023-05-31 15:57:55.658|CONFIG|javax.enterprise.system.nodeagent|_ThreadID=1;_ThreadName=main;|registered object: com.bes.appserver.node:type=Node,name=Node3,category=instance-controller|####
+####|2023-05-31 15:57:55.659|CONFIG|javax.enterprise.system.nodeagent|_ThreadID=1;_ThreadName=main;|registered object: com.bes.appserver.node:type=Node,name=Node3,category=apache-controller|####
+####|2023-05-31 15:57:55.659|CONFIG|javax.enterprise.system.nodeagent|_ThreadID=1;_ThreadName=main;|registered object: com.bes.appserver.node:type=Node,name=Node3,category=deploy-controller|####
+####|2023-05-31 15:57:55.721|INFO|javax.enterprise.system.nodeagent|_ThreadID=1;_ThreadName=main;|NodeAgent url  = service:jmx:rmi_jrmp://0.0.0.0:4100|####
+####|2023-05-31 15:57:55.722|CONFIG|javax.enterprise.system.nodeagent|_ThreadID=1;_ThreadName=main;|registered object: com.bes.appserver.node:name=JmxConnectorServer,port=4100|####
+####|2023-05-31 15:57:55.838|INFO|com.bes.crane.http.server.NetworkListener|_ThreadID=1;_ThreadName=main;|Started listener bound to [0.0.0.0:3100]|####
+####|2023-05-31 15:57:55.841|INFO|com.bes.crane.http.server.HttpServer|_ThreadID=1;_ThreadName=main;|[HttpServer] Started.|####
+####|2023-05-31 15:57:55.841|INFO|javax.enterprise.system.nodeagent|_ThreadID=1;_ThreadName=main;|Http is listening on port [3100].|####
+####|2023-05-31 15:57:55.842|INFO|javax.enterprise.system.nodeagent|_ThreadID=1;_ThreadName=main;|NODE100043:Reconciling existing node configuration with configuration that is in domain.config|####
+####|2023-05-31 15:57:55.846|INFO|javax.enterprise.system.nodeagent|_ThreadID=1;_ThreadName=main;|NODE100049:Start the node successfully!|####
+####|2023-05-31 15:57:57.774|INFO|javax.enterprise.system.nodeagent|_ThreadID=74;_ThreadName=Node-Async-1;|NODE100038:Executing Synchronization for node with DMS.|####
+####|2023-05-31 15:57:58.280|INFO|javax.enterprise.system.nodeagent|_ThreadID=74;_ThreadName=Node-Async-1;|NODE100039:Synchronization for Node3 - SUCCEEDED! and took 505 milliseconds.|####
+####|2023-05-31 15:57:58.281|INFO|javax.enterprise.system.nodeagent|_ThreadID=74;_ThreadName=Node-Async-1;|NODE100043:Reconciling existing node configuration with configuration that is in domain.config|####
+####|2023-05-31 15:57:58.282|INFO|javax.enterprise.system.nodeagent|_ThreadID=74;_ThreadName=Node-Async-1;|NODE100030:Creating instance Server3.|####
+####|2023-05-31 15:57:58.287|INFO|javax.enterprise.system.nodeagent|_ThreadID=74;_ThreadName=Node-Async-1;|domain for instance - domain3|####
+####|2023-05-31 15:57:58.450|INFO|javax.enterprise.system.nodeagent|_ThreadID=74;_ThreadName=Node-Async-1;|NODE100039:Synchronization for Server3 - SUCCEEDED! and took 144 milliseconds.|####
+####|2023-05-31 15:57:59.733|INFO|javax.enterprise.system.nodeagent|_ThreadID=77;_ThreadName=Node-async-start-instance-0;|NODE100039:Synchronization for Node3 - SUCCEEDED! and took 355 milliseconds.|####
+####|2023-05-31 15:57:59.734|INFO|javax.enterprise.system.nodeagent|_ThreadID=78;_ThreadName=Exec-1;|NODE100018:The node is starting the server instance Server3.|####
+####|2023-05-31 15:57:59.783|INFO|javax.enterprise.system.nodeagent|_ThreadID=78;_ThreadName=Exec-1;|Node synchronizing for instance Server3|####
+####|2023-05-31 15:57:59.888|INFO|javax.enterprise.system.nodeagent|_ThreadID=78;_ThreadName=Exec-1;|NODE100039:Synchronization for Server3 - SUCCEEDED! and took 99 milliseconds.|####
+####|2023-05-31 15:57:59.889|INFO|javax.enterprise.system.nodeagent|_ThreadID=78;_ThreadName=Exec-1;|NODE100042:Getting ready to have ProcessManger start the instance: Server3.|####
+####|2023-05-31 15:57:59.893|INFO|javax.enterprise.system.nodeagent|_ThreadID=78;_ThreadName=Exec-1;|BES will expire in 184 days.|####
+####|2023-05-31 15:58:09.526|INFO|javax.enterprise.system.nodeagent|_ThreadID=78;_ThreadName=Exec-1;|NODE100046:Node starts instance Server3 completely.|####
+####|2023-05-31 15:58:11.872|INFO|javax.enterprise.system.nodeagent|_ThreadID=83;_ThreadName=Node-Async-3;|NODE100038:Executing Synchronization for node with DMS.|####
+####|2023-05-31 15:58:12.462|INFO|javax.enterprise.system.nodeagent|_ThreadID=83;_ThreadName=Node-Async-3;|NODE100039:Synchronization for Node3 - SUCCEEDED! and took 588 milliseconds.|####
+####|2023-05-31 15:58:12.463|INFO|javax.enterprise.system.nodeagent|_ThreadID=83;_ThreadName=Node-Async-3;|NODE100043:Reconciling existing node configuration with configuration that is in domain.config|####
+####|2023-05-31 15:58:12.497|INFO|javax.enterprise.system.nodeagent|_ThreadID=83;_ThreadName=Node-Async-3;|NODE100032:Instance Server3 already exists.|####
+####|2023-05-31 15:58:12.497|INFO|javax.enterprise.system.nodeagent|_ThreadID=83;_ThreadName=Node-Async-3;|NODE100030:Creating instance cls3.|####
+####|2023-05-31 15:58:12.497|INFO|javax.enterprise.system.nodeagent|_ThreadID=83;_ThreadName=Node-Async-3;|domain for instance - domain3|####
+####|2023-05-31 15:58:12.646|INFO|javax.enterprise.system.nodeagent|_ThreadID=83;_ThreadName=Node-Async-3;|NODE100039:Synchronization for cls3 - SUCCEEDED! and took 112 milliseconds.|####
+####|2023-05-31 17:19:25.949|INFO|javax.enterprise.system.tools.admin.com.bes.deployment.admin|_ThreadID=28;_ThreadName=Crane(4);|Application SpringMVC-Maven upload successfully!|####
+####|2023-05-31 17:24:24.331|INFO|javax.enterprise.system.tools.admin.com.bes.deployment.admin|_ThreadID=31;_ThreadName=Crane(7);|Application SpringMVC-Maven-2.0 upload successfully!|####
+####|2023-05-31 17:30:11.385|INFO|javax.enterprise.system.tools.admin.com.bes.deployment.admin|_ThreadID=27;_ThreadName=Crane(3);|Application SpringMVC-Maven-3.0 upload successfully!|####
+####|2023-05-31 17:32:31.266|INFO|javax.enterprise.system.tools.admin.com.bes.deployment.admin|_ThreadID=25;_ThreadName=Crane(2);|Application SpringMVC-Maven-3.0 upload successfully!|####
+####|2023-05-31 17:33:30.268|INFO|javax.enterprise.system.tools.admin.com.bes.deployment.admin|_ThreadID=31;_ThreadName=Crane(7);|Application SpringMVC-Maven-3.1 upload successfully!|####
+####|2023-05-31 17:36:55.831|INFO|javax.enterprise.system.tools.admin.com.bes.deployment.admin|_ThreadID=32;_ThreadName=Crane(8);|Application SpringMVC-Maven-4.0 upload successfully!|####
+####|2023-05-31 17:45:00.529|INFO|javax.enterprise.system.nodeagent|_ThreadID=27;_ThreadName=Crane(3);|NODE100019:The node is stopping the server instance Server3.|####
+####|2023-05-31 17:45:01.675|INFO|javax.enterprise.system.nodeagent|_ThreadID=27;_ThreadName=Crane(3);|NODE100047:Node stops instance Server3 completely.|####
+####|2023-05-31 17:45:02.441|INFO|javax.enterprise.system.nodeagent|_ThreadID=110;_ThreadName=Node-async-start-instance-1;|NODE100039:Synchronization for Node3 - SUCCEEDED! and took 710 milliseconds.|####
+####|2023-05-31 17:45:02.442|INFO|javax.enterprise.system.nodeagent|_ThreadID=111;_ThreadName=Exec-2;|NODE100018:The node is starting the server instance Server3.|####
+####|2023-05-31 17:45:02.471|INFO|javax.enterprise.system.nodeagent|_ThreadID=111;_ThreadName=Exec-2;|Node synchronizing for instance Server3|####
+####|2023-05-31 17:45:02.595|INFO|javax.enterprise.system.nodeagent|_ThreadID=111;_ThreadName=Exec-2;|NODE100039:Synchronization for Server3 - SUCCEEDED! and took 118 milliseconds.|####
+####|2023-05-31 17:45:02.595|INFO|javax.enterprise.system.nodeagent|_ThreadID=111;_ThreadName=Exec-2;|NODE100042:Getting ready to have ProcessManger start the instance: Server3.|####
+####|2023-05-31 17:45:02.599|INFO|javax.enterprise.system.nodeagent|_ThreadID=111;_ThreadName=Exec-2;|BES will expire in 184 days.|####
+####|2023-05-31 17:45:22.122|INFO|javax.enterprise.system.nodeagent|_ThreadID=111;_ThreadName=Exec-2;|NODE100046:Node starts instance Server3 completely.|####
+####|2023-05-31 17:50:26.674|INFO|javax.enterprise.system.tools.admin.com.bes.deployment.admin|_ThreadID=27;_ThreadName=Crane(3);|Application SpringMVC-Maven-5.0 upload successfully!|####
+####|2023-05-31 17:53:34.865|INFO|javax.enterprise.system.tools.admin.com.bes.deployment.admin|_ThreadID=31;_ThreadName=Crane(7);|Application SpringMVC-Maven-5.0 upload successfully!|####
+####|2023-05-31 18:04:37.732|INFO|javax.enterprise.system.tools.admin.com.bes.deployment.admin|_ThreadID=33;_ThreadName=Crane(9);|Application SpringMVC-Maven-6.0 upload successfully!|####
+####|2023-06-01 11:25:28.619|INFO|javax.enterprise.system.tools.admin.com.bes.deployment.admin|_ThreadID=32;_ThreadName=Crane(8);|Application ssm-0.0.1 upload successfully!|####
+####|2023-06-01 11:26:47.201|INFO|javax.enterprise.system.tools.admin.com.bes.deployment.admin|_ThreadID=29;_ThreadName=Crane(5);|Application ssm-0.0.1 upload successfully!|####
+####|2023-06-01 12:55:55.773|INFO|javax.enterprise.system.tools.admin.com.bes.deployment.admin|_ThreadID=27;_ThreadName=Crane(3);|Application ssm-0.0.2 upload successfully!|####
+####|2023-06-01 13:35:24.919|INFO|javax.enterprise.system.tools.admin.com.bes.deployment.admin|_ThreadID=24;_ThreadName=Crane(1);|Application ssm-0.0.3 upload successfully!|####

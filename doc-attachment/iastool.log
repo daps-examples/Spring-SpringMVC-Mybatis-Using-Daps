@@ -1,0 +1,133 @@
+####|2015-12-29 21:15:52.103|INFO|Execute command : --user admin create --domain --password ******** --passport ******** --savelogin=true --checkports=false --adminport 1900 --instanceport 8080 --keytooloptions CN=localhost domain1|####
+####|2015-12-29 21:15:52.381|FINE|Using port 1900 for Admin.|####
+####|2015-12-29 21:15:52.381|FINE|Using port 8080 for HTTP.|####
+####|2015-12-29 21:15:52.381|FINE|Using default port 2000 for IIOP.|####
+####|2015-12-29 21:15:52.381|FINE|Using default port 8443 for HTTP_SSL.|####
+####|2015-12-29 21:15:52.381|FINE|Using default port 2200 for IIOP_SSL.|####
+####|2015-12-29 21:15:52.381|FINE|Using default port 2400 for IIOP_MUTUALAUTH.|####
+####|2015-12-29 21:15:52.381|FINE|Using default port 6600 for JMX_ADMIN.|####
+####|2015-12-29 21:15:52.382|FINE|Using default port 3000 for SPARK.|####
+####|2015-12-29 21:15:52.382|FINE|Using default port 6800 for OSGI_SHELL.|####
+####|2015-12-29 21:15:52.382|FINE|Using default port 9009 for JAVA_DEBUGGER.|####
+####|2015-12-29 21:16:02.350|INFO|Domain domain1 created.|####
+####|2015-12-29 21:16:02.350|INFO|Domain domain1 admin port is 1900.|####
+####|2015-12-29 21:16:02.350|INFO|Domain domain1 admin user is "admin".|####
+####|2015-12-29 21:16:02.788|INFO|Admin login information for host [localhost] and port [1900]
+is being overwritten with credentials provided because the
+--savelogin option was used during the create --domain command.|####
+####|2015-12-29 21:16:02.795|INFO|Login information relevant to admin user name [admin]
+for this domain [domain1] stored at
+[/root/.iastoolpass] successfully.
+Make sure that this file remains protected.
+Information stored in this file will be used by
+iastool commands to manage this domain.|####
+####|2015-12-29 21:16:02.796|FINE|Command create --domain executed successfully.|####
+####|2023-05-31 15:48:19.413|INFO|Execute command : create --password-file --password ******** --passport ******** --iastoolpassport ******** --user admin /home/ubuntu/data/bes/BES910/passwordfile|####
+####|2023-05-31 15:48:19.435|FINE|Command create --password-file executed successfully.|####
+####|2023-05-31 15:48:19.867|INFO|Execute command : create --domain --adminport 1900 --user admin --passwordfile /home/ubuntu/data/bes/BES910/passwordfile --host ubuntu-virtual-machine domain1|####
+####|2023-05-31 15:48:20.092|FINE|Using port 1900 for Admin.|####
+####|2023-05-31 15:48:20.094|FINE|Using default port 8080 for HTTP.|####
+####|2023-05-31 15:48:20.095|FINE|Using default port 2000 for IIOP.|####
+####|2023-05-31 15:48:20.096|FINE|Using default port 8443 for HTTP_SSL.|####
+####|2023-05-31 15:48:20.097|FINE|Using default port 2200 for IIOP_SSL.|####
+####|2023-05-31 15:48:20.099|FINE|Using default port 2400 for IIOP_MUTUALAUTH.|####
+####|2023-05-31 15:48:20.099|FINE|Using default port 6600 for JMX_ADMIN.|####
+####|2023-05-31 15:48:20.100|FINE|Using default port 3000 for SPARK.|####
+####|2023-05-31 15:48:20.101|FINE|Using default port 6800 for OSGI_SHELL.|####
+####|2023-05-31 15:48:20.102|FINE|Using default port 9009 for JAVA_DEBUGGER.|####
+####|2023-05-31 15:48:32.232|INFO|Domain domain1 created.|####
+####|2023-05-31 15:48:32.234|INFO|Domain domain1 admin port is 1900.|####
+####|2023-05-31 15:48:32.234|INFO|Domain domain1 admin user is "admin".|####
+####|2023-05-31 15:48:32.235|FINE|Command create --domain executed successfully.|####
+####|2023-05-31 15:48:32.888|INFO|Execute command : start --domain --user admin --passwordfile /home/ubuntu/data/bes/BES910/passwordfile domain1|####
+####|2023-05-31 15:48:33.124|INFO|BES will exit automatically at [2023-06-03 15:48:33]|####
+####|2023-05-31 15:48:42.710|FINE|Command start --domain executed successfully.|####
+####|2023-05-31 15:48:54.646|INFO|Execute command : list --domains --passport ********|####
+####|2023-05-31 15:48:55.270|INFO|domain1 running|####
+####|2023-05-31 15:48:55.270|FINE|Command list --domains executed successfully.|####
+####|2023-05-31 15:48:55.612|INFO|Execute command : create --node --user admin --passwordfile /home/ubuntu/data/bes/BES910/passwordfile --host ubuntu-virtual-machine --port 1900 --nodehost ubuntu-virtual-machine --domainname domain1 na|####
+####|2023-05-31 15:48:57.046|FINE|Command create --node executed successfully.|####
+####|2023-05-31 15:48:57.560|INFO|Execute command : create --instance --user admin --passwordfile /home/ubuntu/data/bes/BES910/passwordfile --host ubuntu-virtual-machine --port 1900 --node na aloneIns1|####
+####|2023-05-31 15:48:58.035|INFO|Port Assignments for server instance aloneIns1: 
+Using 18443 for HTTPS_PORT
+Using 12000 for IIOP_PORT
+Using 16800 for OSGI_PORT
+Using 19009 for DEBUG_PORT
+Using 12200 for IIOPS_PORT
+Using 18080 for HTTP_PORT
+Using 12400 for IIOPS_MUTULAUTH_PORT
+Using 16600 for JMX_PORT
+Using 13000 for SPARK_PORT
+Using 11900 for ADMIN_PORT|####
+####|2023-05-31 15:48:58.036|FINE|Command create --instance executed successfully.|####
+####|2023-05-31 15:48:58.544|INFO|Execute command : start --node --user admin --domainname domain1 --passwordfile /home/ubuntu/data/bes/BES910/passwordfile na|####
+####|2023-05-31 15:49:20.409|FINE|Command start --node executed successfully.|####
+####|2023-05-31 15:49:21.892|INFO|Execute command : stop --node --passport ******** --domainname domain1 na|####
+####|2023-05-31 15:49:27.348|FINE|Command stop --node executed successfully.|####
+####|2023-05-31 15:49:27.822|INFO|Execute command : stop --domain --user admin --passwordfile /home/ubuntu/data/bes/BES910/passwordfile --port 1900 domain1|####
+####|2023-05-31 15:49:28.681|FINE|Command stop --domain executed successfully.|####
+####|2023-05-31 15:57:21.338|INFO|Execute command : create --domain --passport ******** --user admin --adminport 1900 domain3|####
+####|2023-05-31 15:57:27.839|FINE|Using port 1900 for Admin.|####
+####|2023-05-31 15:57:27.840|FINE|Using default port 8080 for HTTP.|####
+####|2023-05-31 15:57:27.843|FINE|Using default port 2000 for IIOP.|####
+####|2023-05-31 15:57:27.844|FINE|Using default port 8443 for HTTP_SSL.|####
+####|2023-05-31 15:57:27.846|FINE|Using default port 2200 for IIOP_SSL.|####
+####|2023-05-31 15:57:27.848|FINE|Using default port 2400 for IIOP_MUTUALAUTH.|####
+####|2023-05-31 15:57:27.850|FINE|Using default port 6600 for JMX_ADMIN.|####
+####|2023-05-31 15:57:27.853|FINE|Using default port 3000 for SPARK.|####
+####|2023-05-31 15:57:27.855|FINE|Using default port 6800 for OSGI_SHELL.|####
+####|2023-05-31 15:57:27.857|FINE|Using default port 9009 for JAVA_DEBUGGER.|####
+####|2023-05-31 15:57:35.899|INFO|Domain domain3 created.|####
+####|2023-05-31 15:57:35.901|INFO|Domain domain3 admin port is 1900.|####
+####|2023-05-31 15:57:35.902|INFO|Domain domain3 admin user is "admin".|####
+####|2023-05-31 15:57:35.904|FINE|Command create --domain executed successfully.|####
+####|2023-05-31 15:57:36.667|INFO|Execute command : start --domain --passport ******** domain3|####
+####|2023-05-31 15:57:36.856|INFO|BES will exit automatically at [2023-06-03 15:57:36]|####
+####|2023-05-31 15:57:45.641|FINE|Command start --domain executed successfully.|####
+####|2023-05-31 15:57:46.549|INFO|Execute command : create --node --passport ******** --domainname domain3 Node3|####
+####|2023-05-31 15:57:49.280|FINE|Command create --node executed successfully.|####
+####|2023-05-31 15:57:49.809|INFO|Execute command : start --node --passport ******** --domainname domain3 Node3|####
+####|2023-05-31 15:57:56.303|FINE|Command start --node executed successfully.|####
+####|2023-05-31 15:57:57.202|INFO|Execute command : create --instance --passport ******** --node Node3 Server3|####
+####|2023-05-31 15:57:58.805|INFO|Port Assignments for server instance Server3: 
+Using 18443 for HTTPS_PORT
+Using 12000 for IIOP_PORT
+Using 16800 for OSGI_PORT
+Using 19009 for DEBUG_PORT
+Using 12200 for IIOPS_PORT
+Using 18080 for HTTP_PORT
+Using 12400 for IIOPS_MUTULAUTH_PORT
+Using 16600 for JMX_PORT
+Using 13000 for SPARK_PORT
+Using 11900 for ADMIN_PORT|####
+####|2023-05-31 15:57:58.809|FINE|Command create --instance executed successfully.|####
+####|2023-05-31 15:57:59.185|INFO|Execute command : start --instance --passport ******** Server3|####
+####|2023-05-31 15:58:09.940|FINE|Command start --instance executed successfully.|####
+####|2023-05-31 15:58:10.500|INFO|Execute command : create --cluster --passport ******** --user admin Cluster3|####
+####|2023-05-31 15:58:10.806|FINE|Command create --cluster executed successfully.|####
+####|2023-05-31 15:58:11.479|INFO|Execute command : create --instance --passport ******** --node Node3 --cluster Cluster3 cls3|####
+####|2023-05-31 15:58:12.901|INFO|Port Assignments for server instance cls3: 
+Using 18444 for HTTPS_PORT
+Using 12001 for IIOP_PORT
+Using 16801 for OSGI_PORT
+Using 19010 for DEBUG_PORT
+Using 12201 for IIOPS_PORT
+Using 18081 for HTTP_PORT
+Using 12401 for IIOPS_MUTULAUTH_PORT
+Using 16601 for JMX_PORT
+Using 13001 for SPARK_PORT
+Using 16000 for UNICAST_PORT
+Using 11901 for ADMIN_PORT|####
+####|2023-05-31 15:58:12.911|FINE|Command create --instance executed successfully.|####
+####|2023-06-01 11:25:23.396|INFO|Execute command : deploy --passport ******** --host localhost --port 1900 --user admin --target Server3 /home/ubuntu/apps/ssm-0.0.1.war|####
+####|2023-06-01 11:25:34.802|INFO|Application is deployed with name ssm-0.0.1|####
+####|2023-06-01 11:25:34.803|FINE|Command deploy executed successfully.|####
+####|2023-06-01 11:26:45.095|INFO|Execute command : deploy --passport ******** --host localhost --port 1900 --user admin --target Server3 /home/ubuntu/apps/ssm-0.0.1.war|####
+####|2023-06-01 11:26:50.805|INFO|Application is deployed with name ssm-0.0.1|####
+####|2023-06-01 11:26:50.806|FINE|Command deploy executed successfully.|####
+####|2023-06-01 12:55:42.161|INFO|Execute command : deploy --passport ******** --host localhost --port 1900 --user admin --target Server3 /home/ubuntu/apps/ssm-0.0.2.war|####
+####|2023-06-01 12:56:06.503|INFO|Application is deployed with name ssm-0.0.2|####
+####|2023-06-01 12:56:06.508|FINE|Command deploy executed successfully.|####
+####|2023-06-01 13:35:10.594|INFO|Execute command : deploy --passport ******** --host localhost --port 1900 --user admin --target Server3 /home/ubuntu/apps/ssm-0.0.3.war|####
+####|2023-06-01 13:35:37.731|INFO|Application is deployed with name ssm-0.0.3|####
+####|2023-06-01 13:35:37.732|FINE|Command deploy executed successfully.|####
