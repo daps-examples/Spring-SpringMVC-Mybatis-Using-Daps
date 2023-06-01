@@ -34,3 +34,4 @@ mvn clean package -Dmaven.test.skip=true -U
 3. 日志
    1. `tail -f /home/ubuntu/data/bes/BES910/var/domains/domain3/nodes/Node3/manager/logs/server.log`==>[server.log](doc-attachment/server.log)
    2. `tail -f /home/ubuntu/data/bes/BES910/var/domains/domain3/nodes/Node3/instances/Server3/work/log4j.log`==>[应用日志](doc-attachment/log4j.log)
+4. 脱敏效果 ![img](./doc-attachment/脱敏.png)
