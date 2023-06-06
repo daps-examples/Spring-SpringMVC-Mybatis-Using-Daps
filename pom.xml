@@ -8,6 +8,7 @@
 	<description>
 		0.0.2 是依赖了 daps-client ，但并没有使用作为数据源
 		0.0.3 尝试使用 daps-client
+		0.0.4 数据源改为 druid
 	</description>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,6 +21,11 @@
     <aspectj.version>1.5.4</aspectj.version>
   </properties>
   <dependencies>
+	  <dependency>
+		  <groupId>com.alibaba</groupId>
+		  <artifactId>druid</artifactId>
+		  <version>1.2.16</version>
+	  </dependency>
 	  <dependency>
 		  <groupId>cn.bjca.daps</groupId>
 		  <artifactId>daps-client</artifactId>
