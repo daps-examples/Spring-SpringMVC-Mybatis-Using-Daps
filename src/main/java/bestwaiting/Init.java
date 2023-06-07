@@ -12,7 +12,7 @@ public class Init implements InitializingBean {
     private Logger logger = Logger.getLogger(this.getClass());
 
     static {
-        System.setProperty(DAPS_CONF, "raw:" + Io.toString(Io.readClasspath("daps/daps.json")));
+        // System.setProperty(DAPS_CONF, "raw:" + Io.toString(Io.readClasspath("daps/daps.json")));
         try {
             Class.forName(DapsDriver.class.getName());
             Class.forName(Driver.class.getName());

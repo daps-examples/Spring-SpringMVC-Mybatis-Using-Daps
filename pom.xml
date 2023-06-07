@@ -4,11 +4,12 @@
   <groupId>com.bestwaiting</groupId>
   <artifactId>ssm</artifactId>
   <packaging>war</packaging>
-  <version>0.0.3</version>
+  <version>0.0.5</version>
 	<description>
 		0.0.2 是依赖了 daps-client ，但并没有使用作为数据源
 		0.0.3 尝试使用 daps-client
 		0.0.4 数据源改为 druid
+		0.0.5 改为直接请求 configServer
 	</description>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

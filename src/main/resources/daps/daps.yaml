@@ -1,0 +1,2 @@
+configServer: http://106.75.241.121:5003/daps/gongjijin/rule
+pollingPeriodMs: 10000
